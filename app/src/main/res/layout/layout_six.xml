@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@android:dimen/app_icon_size"
+    android:paddingLeft="@android:dimen/app_icon_size"
+    android:paddingRight="@android:dimen/app_icon_size"
+    android:paddingTop="@android:dimen/app_icon_size">
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+    <Button
+        android:paddingLeft="100dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Button"
+        android:layout_toRightOf="@id/btn1"/>
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Button"
+        android:layout_alignParentBottom="true"/>
+    <Button
+        android:layout_marginLeft="100dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Button"
+        android:layout_toRightOf="@id/btn2"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

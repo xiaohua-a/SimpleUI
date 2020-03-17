@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- 这个是在容器中央的 -->
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerInParent="true"
+        android:src="@android:drawable/btn_radio"/>
+    <!-- 在中间图片的左边 -->
+    <ImageView
+        android:id="@+id/img2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_toLeftOf="@+id/img1"
+        android:layout_centerVertical="true"
+        android:src="@android:drawable/btn_star"/>
+    <!-- 在中间图片的右边 -->
+    <ImageView
+        android:id="@+id/img3"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_toRightOf="@+id/img1"
+        android:layout_centerVertical="true"
+        android:src="@android:drawable/ic_notification_clear_all"/>
+    <!-- 在中间图片的上面-->
+    <ImageView
+        android:id="@+id/img4"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_above="@+id/img1"
+        android:layout_centerHorizontal="true"
+        android:src="@android:drawable/ic_lock_idle_low_battery"/>
+    <!-- 在中间图片的下面 -->
+    <ImageView
+        android:id="@+id/img5"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@id/img1"
+        android:layout_centerHorizontal="true"
+        android:src="@android:drawable/ic_menu_info_details"/>
+
+</RelativeLayout>

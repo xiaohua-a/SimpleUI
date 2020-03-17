@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/FrameLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:foreground="@drawable/xiao"
+    android:foregroundGravity="right|bottom">
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:background="#010A22"	/>
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="#05226B"	/>
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#3364F5"	/>
+
+</FrameLayout>
